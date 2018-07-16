@@ -1,0 +1,199 @@
+#thead {
+   text-align: center;
+   position: center;
+   margin-left: auto;
+   margin-right: auto;
+   color: black;
+   font-family: 'Boogaloo', cursive;
+   font-size: 3.5em;
+}
+
+
+
+/* Section Styles */
+
+section#summary {
+   -webkit-flex: 1 1 50px;
+   flex: 1 1 50px;
+   padding: 20px 0px 10px 20px;
+}
+
+section#summary h1 {
+   font-size: 1.8em;
+   letter-spacing: 0.1em;
+   line-height: 1.2em;
+   font-weight: normal;
+   margin-bottom: 10px;
+}
+
+section#summary h2 {
+   font-size: 1.25em;
+   font-weight: normal;
+}
+
+section#summary h3 {
+   font-size: 1em;
+   font-weight: normal; 
+   margin-bottom: 20px;  
+}
+
+section#summary > img {
+   display: block;
+   width: 350px;
+   margin: 0px auto;
+}
+
+section#summary p {
+   font-size: 0.9em;
+   text-align: justify;
+}
+
+section#orderSection {
+   -webkit-flex: 1 1 200px;
+   flex: 1 1 200px;
+   margin: 20px;
+}
+   
+/* Order Table Styles */
+
+table#orderTable {
+   margin: 15px;
+   width: 95%;
+   border-collapse: collapse;
+}
+
+form#orderForm fieldset {
+   border: none;
+   margin-left: -10px;
+}
+
+form#orderForm input[type="text"] {
+   background-color: rgba(240, 233, 222, 0.5);
+}
+
+table#orderTable caption {
+   font-size: 1.3em;
+   font-weight: bold;
+   letter-spacing: 0.2em;
+   text-align: left;
+   caption-side: top;
+   margin-bottom: 20px;
+}
+
+
+table#orderTable td {
+   height: 30px;
+   vertical-align: top;
+}
+
+form#orderForm {
+	margin-right: 45px;
+	padding-top: 50px;
+}
+
+form#orderForm input#orderDate {
+   text-align: left;
+}
+
+form#orderForm input[type="text"] {
+   color: rgb(101, 101, 101);
+}
+
+form#orderForm select {
+   display: inline-block;
+   margin-left: 10px;
+   color: rgb(101, 101, 101);
+}
+
+table#orderTable tr:first-of-type {
+   border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+table#orderTable tr td:last-of-type input {
+   text-align: right;
+   border: none;
+}
+
+table#orderTable tr:nth-of-type(3) {
+   border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+table#orderTable tr:nth-of-type(2) td, table#orderTable tr:nth-of-type(4) td {
+   padding-top: 15px;
+}
+
+table#orderTable tr:nth-of-type(5) td {
+   border-bottom: 6px double rgb(151, 151, 151);
+}
+
+table#orderTable tr:last-of-type td {
+   padding-top: 15px;
+}
+
+table#orderTable td.rightA {
+   text-align: right;
+   padding-right: 10px;
+}
+
+form#orderForm fieldset label {
+   display: block;
+}
+
+form#orderForm input#buttonAdd {
+   display: block;
+   width: 120px;
+   height: 35px;
+   margin: 15px auto;
+   background-color: rgba(232, 218, 201, 0.8);
+   font-size: 1.3em;
+   border-radius: 20px;
+}
+
+body {
+	   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+a.navicon {
+   display: none;
+}
+
+/*================ Cellphones=====================*/
+
+@media only screen and (max-width: 640px) {
+    nav img {
+        display: none;
+    }
+
+    nav#navBar {
+    	font-size: 0.6em;
+    	float: left;clear: left;
+    }
+
+    a#navicon {
+      display: block;
+   }
+   
+   header nav ul {
+      display: none;
+   }
+   
+   header nav ul li {
+      font-size: 1em;
+      line-height: 1.3em;
+      height: 1.3em;
+   }
+   
+   a#navicon:hover+ul, header nav ul:hover {
+      display: block;
+   }
+}
+
+}

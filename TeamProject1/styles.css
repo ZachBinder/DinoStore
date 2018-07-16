@@ -1,0 +1,273 @@
+html {
+	background: url("back11.jpg")fixed;
+}
+
+body {
+   background: url("back1.jpg");
+   background-size: 100%;
+   box-shadow: rgb(51, 51, 51) 10px 0px 40px, rgb(51, 51, 51) -10px 0px 40px;
+   border-left: 1px solid gray;
+   border-right: 1px solid gray;
+   min-height: 100%;   
+   margin: 0px auto;
+   min-width: 600px;
+   max-width: 1024px;   
+   width: 100%; 
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;   
+   -webkit-align-items: center;
+   align-items: center; 
+}
+
+header{
+	width: 100%;
+}
+
+#navBar {
+text-align:center;
+margin-bottom: 30px;
+padding-right: 65px;
+}
+
+#navBar ul {
+display:inline-block;
+list-style:none; 
+}
+
+* html #navBar ul { /* Target IE6 */
+display:inline;
+}
+
+*+html #navBar ul { /* Target IE7 */
+display:inline;
+}
+
+#navBar li {
+display:inline;
+   color: lightblue;
+   text-shadow: 0 0 20px black, 0 0 20px black;
+}
+
+#navBar a {
+float:left;
+text-decoration:none; 
+margin:0px 30px; /* variable width */
+color: black;
+font-size: 1.2em;
+font-family: 'Boogaloo', cursive;
+text-shadow: 1px -1px 0px white, -1px 1px 0px white, 1px 1px 0px white, -1px -1px 0px white;
+}
+
+#navBar a:hover {
+	font-size: 1.5em;
+	color: white;
+   font-family: 'Boogaloo', cursive;
+   text-shadow: 1px -1px 0px black, -1px 1px 0px black, 1px 1px 0px black, -1px -1px 0px black;
+}
+
+header h1 {
+	text-align: center;
+   font-family: 'Cinzel Decorative', cursive;
+   text-decoration: bold;
+   text-shadow: 0 0 20px black, 0 0 20px black;
+   color: white;
+   font-size: 3.2em;
+   padding-top: 0;
+   margin-bottom: 15px;
+}
+
+#atc {
+   float: right; 
+   clear: right;
+   vertical-align: top;
+   padding-top: 2px;
+   padding-right: 3px;
+}
+
+form {
+   float:right;
+   padding-right: 10px;
+   padding-top:5px;
+   font-family: 'boogaloo', cursive;
+}
+
+#signup {
+   padding-left:5px;
+   padding-top: 3px;
+   text-decoration: none;
+   color: rgb(140, 170, 255);
+   font-size: 1.2em;
+   font-family: 'Boogaloo', cursive;
+   text-shadow: 1.2px 1.2px 3px  black, -1.2px -1.2px 3px  black, 1.2px -1.2px 3px  black, -1.2px 1.2px 3px  black;
+}
+
+#signup:hover {
+   font-size: 1.5em;
+   color: lightblue;
+   text-shadow: 1.2px 1.2px 5px  black, -1.2px -1.2px 5px  black, 1.2px -1.2px 5px  black, -1.2px 1.2px 5px  black;
+   text-decoration: none;
+}
+
+.price {
+   margin-top: 0px;
+}
+
+nav h4 {
+   color: rgb(255,0,0);
+   margin-top: 0;
+   margin-bottom: 10px;
+   text-shadow: none;
+}
+
+#rep {
+   color: rgb(255, 162,162);
+   font-size: 0.9em;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+#licon:hover {
+   cursor: url(licon.png), pointer;
+}
+
+#meat:hover {
+   cursor: url(meat.png), pointer;
+}
+
+#ficon:hover {
+   cursor: url(ficon.png), pointer;
+}
+
+#hicon:hover {
+   cursor: url(hicon.png), pointer;
+}
+
+#countdown {
+   color: white;
+   font-family: cursive;
+   font-size: 0.85em;
+  text-shadow: 1.2px 1.2px 5px  red, -1.2px -1.2px 5px  red, 1.2px -1.2px 5px  red, -1.2px 1.2px 5px  red;
+}
+
+#atc2:hover {
+ cursor: url(sicon.png), pointer;
+}
+
+#atc:hover {
+   cursor: url(coicon.png), pointer;
+}
+
+#countdown2 {
+   color: red;
+   font-family: 'Boogaloo', cursive;
+   font-size: 3.5em;
+   text-align: center;
+  text-shadow: 1.2px 1.2px 5px  white, -1.2px -1.2px 5px  white, 1.2px -1.2px 5px  white, -1.2px 1.2px 5px  white;
+}
+
+#daily {
+   text-decoration: none;
+   color: rgb(140, 170, 255);
+   font-size: 1.2em;
+   font-family: 'Boogaloo', cursive;
+   text-shadow: 1.2px 1.2px 5px  black, -1.2px -1.2px 5px  black, 1.2px -1.2px 5px  black, -1.2px 1.2px 5px  black;
+}
+
+#daily:hover {
+   font-size: 1.7em;
+   color: lightblue;
+   text-shadow: 1.2px 1.2px 5px  black, -1.2px -1.2px 5px  black, 1.2px -1.2px 5px  black, -1.2px 1.2px 5px  black;
+   text-decoration: none;
+}
+
+#au {
+   display: block; 
+   margin-top: 7px;
+   margin-left: 5px;
+}
+
+/* Footer Styles */
+
+footer {
+   width: 100%;
+   font-family: 'Averia Serif Libre', cursive;
+   margin-top: 140px;
+   clear: both;
+}
+
+footer p {
+   color: rgb(220, 220, 220);
+   font-size: 0.9em;
+   text-align: center;
+   background-color: rgba(172, 103, 83, 0.6);
+   margin: 0px;
+   padding: 5px 0px;
+}
+
+
+/* Bottom Navigation List Styles */
+
+nav#bottom {
+   background-color: rgba(255, 230, 200, 0.4);
+   padding: 15px;
+}
+
+nav#bottom ul li {
+   font-size: 1em;
+   line-height: 1.4em;
+}
+
+nav#bottom ul a {
+   color: rgb(101, 101, 101);
+}
+
+
+
+/* Bottom Navigation Styles */
+
+nav#bottom {
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row nowrap;
+   flex-flow: row nowrap;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+
+nav#bottom ul {
+   flex: 0 1 150px;
+}
+
+
+@media only screen and (max-width: 640px) {
+    nav img {
+        display: none;
+    }
+
+    nav#navBar {
+      font-size: 0.6em;
+      float: left;clear: left;
+    }
+
+    a#navicon {
+      display: block;
+   }
+   
+   header nav ul {
+      display: none;
+   }
+   
+   header nav ul li {
+      font-size: 1em;
+      line-height: 1.3em;
+      height: 1.3em;
+   }
+   
+   a#navicon:hover+ul, header nav ul:hover {
+      display: block;
+   }
+}
+
+}

@@ -1,0 +1,82 @@
+th {
+	text-shadow: 1.2px 1.2px 5px  black, -1.2px -1.2px 5px  black, 1.2px -1.2px 5px  black, -1.2px 1.2px 5px  black;
+	font-family: 'Verdana', cursive;
+	color: white;
+	font-size: 0.99em;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.price {
+	color: red;
+	font-style: italic;
+	font-size: 2.6em;
+	text-shadow: 0 0 20px rgba(255,0,0,0.4), 0 0 20px rgba(255,0,0,0.4);
+	padding-left: 130px;
+	margin-bottom: 0px;
+}
+
+strike {
+	font-size: 0.6em;
+}
+
+#plesimg {
+	padding-left: 50px;
+}
+
+#triimg {
+	padding-left: 50px;
+}
+
+#velimg {
+	
+	padding-left: 35px;
+	padding-right: 15px;
+}
+
+#pp {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/*to make the description line height equal to the other ones. 
+as well as space it away from the side of the body*/
+#vp {
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 35px;
+}
+
+footer {
+	font-family: 'Averia Serif Libre', cursive;
+}
+
+#thead {
+   text-align: center;
+   position: center;
+   margin-left: auto;
+   margin-right: auto;
+   color: black;
+   font-family: 'Boogaloo', cursive;
+   font-size: 4em;
+}
+
+ul {
+	margin-bottom: 0px;
+}
+
+nav {
+	margin-bottom: 0px;
+}
+
+#days2 {
+	padding-bottom: 25px;
+}
+#countdown2 {
+   color: red;
+   font-family: 'Boogaloo', cursive;
+   font-size: 3.5em;
+   text-align: center;
+  text-shadow: 1.2px 1.2px 5px  white, -1.2px -1.2px 5px  white, 1.2px -1.2px 5px  white, -1.2px 1.2px 5px  white;
+}

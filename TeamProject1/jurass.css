@@ -1,0 +1,53 @@
+th {
+text-shadow: 1.2px 1.2px 5px  black, -1.2px -1.2px 5px  black, 1.2px -1.2px 5px  black, -1.2px 1.2px 5px  black;
+	font-family: 'Verdana', cursive;
+	color: white;
+	font-size: 0.9em;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.price {
+	color: red;
+	font-style: italic;
+	font-size: 2em;
+	text-shadow: 0 0 20px rgba(255,0,0,0.4), 0 0 20px rgba(255,0,0,0.4);
+	padding-left: 130px;
+	margin-bottom: 0px;
+}
+
+#dipimg {
+	padding-left: 50px;
+}
+
+#compimg {
+	padding-left: 45px;
+}
+
+#alloimg {
+	
+	padding-left: 42px;
+	padding-right: 15px;
+}
+
+p {
+	text-align: center;
+}
+
+footer {
+	font-family: 'Averia Serif Libre', cursive;
+}
+
+#dp {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/*to make the description line height equal to the other ones. 
+as well as space it away from the side of the body*/
+#ap {
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 35px;
+}

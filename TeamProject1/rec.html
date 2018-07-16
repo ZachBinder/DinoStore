@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check Out</title>
+	<link rel="stylesheet" type="text/css" href="rec.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+   <script src="countdown.js" defer></script>
+   <script src="rec.js" async></script>
+</head>
+<body>
+	<header>
+	<!-- Create an add to cart image -->
+        <a href="#"><div id="atc"><img src="atc.jpg" height="30px" width="30px"></div></a>
+   
+    <!--Signup option for new users-->   
+      <a href="#" id="signup">Sign Up</a> &nbsp;  &nbsp;
+
+    <!--for current users to sign in if they have an account-->   
+        <form action="#">
+            Sign In <input type="text" name="username"> &nbsp; 
+            Password <input type="password" name="password">
+        </form> 
+
+    <!--generate a daily recommended sale-->
+      <a href="rec.html" id="daily">Your Daily Recommended Item</a> <br>
+      <img src="authentic.webp" id="au" width="70px" height="70px">
+   
+  
+   
+      <h1>Dinostore</h1>
+
+   <!--Navigation bar to all the pages on the website-->   
+      <nav id="navBar">
+      	<a class="navicon" href="#"><img src="navicon.png" alt="" /></a>
+         <ul>
+            <li><a href="home.html" id="hicon">Home <br> <img src="home.jpg" height="69px" width="75px">
+               <div id="countdown">
+               <span id="days"></span>
+               <span id="hrs"></span>
+               <span id="mins"></span>
+               <span id="secs"></span>
+               </div>
+            </a></li>
+            
+            <li><a href="jurassic.html" id="licon">Jurassic <br> <img src="jura.jpg" height="69px" width="75px"></a></li>
+            
+            <li><a href="cretaceousROW.html" id="meat">Cretaceous <br> <img src="cret.jpg" height="69px" width="75px"></a></li>
+            
+            <li><a href="triassic.html" id="ficon">Triassic <br> <img src="tria.jpg" height="69px" width="75px"><h4>Sold Out!</h4></a></li>
+         </ul>
+	  </nav>
+   </header>
+
+   <table style="width:100%">
+         <thead>
+            <tr>
+               <td id="thead">This deal is only available through this page!</td>
+            </tr>
+         </thead></table>
+
+       <section id="summary">  
+      <h1>Genuine Mosasaurus Teeth</h1>
+      <h2>by <a href="home.html">DinoStore</a></h2>
+      <h3>Customer Rating (824 votes): <img src="rev.png" alt="4.4 stars" width="60px" /></h3>
+      <img src="dd.jpg" alt="mos teeth" />
+
+      <p>Hadrosaurus Shantungosaurus Guanlong Cylindricodon jk Alnashetri Afrovenator Camarillasaurusjk Drusilasaura Lapparentosaurus jkMelanorosaurus Tehuelchesaurus Apatosaurus Acanthopholisjk Torosaurus Shanshanosaurus Echinodonjk Hexinlusaurus Kukufeldia Orthogoniosaurus Erlikosaurus Kakuru Campylodon Bissekjktipelta Stygimoloch Hypselospinus Huanghetitan Barosaurus Thecocoelurus.jk
+      Eosinopteryx Danubiosaurus Losillasaurus Amjkazonsaurus Macrurosaurus Hypsibema Ricardoestesia Unaysaurus jkKangnasaurus Gongxianosaujkrus Kazaklambia Bothriospondylus Gondwanatitan jk Dilophosaurus Edmontonia Aerosteon
+      </p>
+   	</section>
+   
+   <section id="orderSection">
+      <form id="orderForm" name="orderForm" method="get">
+        
+        <table id="orderTable" width="100%">
+           <caption>Product Order</caption>
+           <tr>
+              <td colspan="3">
+                 <input type="text" id="orderDate" name="orderDate" readonly />
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <label for="Size">Size</label>
+                 <select name="Size" id="Size">
+                    <option value="5">Small Tooth ($5)</option>
+                    <option value="10" selected>Medium Tooth ($10)</option>
+                    <option value="20">Massive Tooth ($20)</option>
+                 </select>   
+                 <input type="hidden" id="modelName" name="modelName" />
+              </td>
+              <td class="rightA">
+                 <label for="qty">Qty</label>
+                 <select name="qty" id="qty">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                 </select>   
+              </td>                 
+              <td>
+                 <input type="text" name="initialCost" id="initialCost" size="10" readonly />
+              </td>
+           </tr>
+           <tr>
+              <td colspan="2"> 
+                 <fieldset>
+                    <legend>Quality</legend>
+                    <label><input type="radio" id="plan_0" name="qual" value="0"  /> Poor ($0.00 each)</label>
+                    <label><input type="radio" id="plan_1" name="qual" value="5" checked /> 
+                    Average ($5 each)</label>   
+                    <label><input type="radio" id="plan_2" name="qual" value="10" /> 
+                    Good ($10 each)</label> 
+                    <label><input type="radio" id="plan_3" name="qual" value="20"  /> 
+                    Museum Quality ($20 each)</label>
+                 </fieldset>
+                 <input type="hidden" id="protectionName" name="protectionName" />
+              </td>
+              <td>
+                 <input type="text" name="protectionCost" id="protectionCost" size="10" readonly />
+              </td>
+           </tr>        
+           <tr>
+              <td colspan="2" class="rightA">Subtotal</td>
+              <td class="outcell">
+                 <input type="text" name="subtotal" id="subtotal" size="10" readonly />
+              </td>
+           </tr>
+
+           <tr>
+              <td colspan="2" class="rightA">Tax (5%)</td>
+              <td>
+                 <input type="text" name="salesTax" id="salesTax" size="10" readonly />
+              </td>
+           </tr>
+
+           <tr>
+              <td colspan="2" class="rightA">TOTAL</td>
+              <td>
+                 <input type="text" name="totalCost" id="totalCost" size="10" readonly />
+              </td>
+           </tr>
+        </table>
+        <input type="submit" id="buttonAdd" value="add to cart" />
+    </form>
+    </section>
+      <footer>
+      <nav id="bottom">
+         <ul>
+            <li><a href="#"><img id="fbicon" src="fbicon.png" alt="" />facebook</a></li>
+            <li><a href="#"><img id="twicon" src="twicon.png" alt="" />twitter</a></li>
+            <li><a href="#">review a product</a></li>
+         </ul>
+         <ul>
+            <li><a href="#">help &amp; info</a></li>
+            <li><a href="#">track your order</a></li>
+            <li><a href="#">returns</a></li>
+            
+         </ul>
+         <ul>
+            <li><a href="#">find a store</a></li>
+            <li><a href="#">request an item</a></li>
+            <li><a href="home.html">current deals</a></li>
+         </ul>         
+         <ul>
+            <li><a href="#">manage your account</a></li>
+            <li><a href="#">order history</a></li>
+            <li><a href="#">contact us</a></li>
+         </ul>
+      </nav>
+      <p>DinoStore &copy; 2018 All Rights Reserved</p>
+   </footer>
+
+</body>
+</html>
